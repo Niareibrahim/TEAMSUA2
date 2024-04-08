@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente de Matériel - Mali</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <!-- Header avec logo et menu de navigation -->
+        <div id="logo">
+            <img src="WhatsApp Image 2024-01-15 à 22.37.24_238cee9c.jpg" alt="Logo de Vente de Matériel - MALI">
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#commande-produits">Commande de Produits</a></li>
+                <li><a href="#commentaires">Commentaires</a></li>
+                <li><a href="#jeux-animations">Jeux/Animations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Section Accueil -->
+        <section id="accueil">
+            <h1>Bienvenue chez NIARE INOVA SARL - MALI </h1>
+            <p>Nous sommes votre partenaire de choix pour les télécommunications, les ventes de matériel informatique et électronique, la maintenance et les services bureautiques.</p>
+            <a href="#services"><img src="https://source.unsplash.com/200x200/?laptop" alt="Image d'accueil" class="service-image"></a>
+            <img src="https://source.unsplash.com/200x200/?printer" alt="Image d'accueil" class="service-image"></a>
+            <img src="https://source.unsplash.com/200x200/?cameras" alt="Image d'accueil" class="service-image"></a>
+            <img src="https://source.unsplash.com/200x200/?microwave" alt="Image d'accueil" class="service-image"></a>
+            <img src="https://source.unsplash.com/200x200/?vacuum cleaner" alt="Image d'accueil" class="service-image"></a>
+            <img src="https://source.unsplash.com/200x200/?earphone" alt="Image d'accueil" class="service-image"></a>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="a-propos">
+            <h2>À propos de nous</h2>
+            <p>"Plongez dans l'univers de NIARE-INOVA, votre partenaire de confiance pour l'achat de matériel informatique et électronique au Mali. Nous nous engageons à vous fournir des équipements de qualité pour accompagner votre succès."</p>
+
+            <a href="#services"><img src="https://source.unsplash.com/300x300/?office" alt="Image à propos de nous" class="service-image"></a>
+            <img src="https://source.unsplash.com/300x300/?washing machine" alt="Image à propos de nous" class="service-image"></a>
+            <img src="https://source.unsplash.com/300x300/?network cable" alt="Image à propos de nous" class="service-image"></a>
+            <img src="https://source.unsplash.com/300x300/?playstation" alt="Image à propos de nous" class="service-image"></a>
+            <img src="https://source.unsplash.com/300x300/?Hard disk" alt="Image à propos de nous" class="service-image"></a>
+            <img src="https://source.unsplash.com/300x300/?computer equipment maintenance" alt="Image à propos de nous" class="service-image"></a>
+            <img src="https://source.unsplash.com/300x300/?anti virus computer" alt="Image à propos de nous" class="service-image"></a>
+            <img src="https://source.unsplash.com/300x300/?website creation" alt="Image à propos de nous" class="service-image"></a>
+        </section>
+
+        <!-- Section Services -->
+        <section id="services">
+            <h2>Nos services</h2>
+            <ul>
+                <li>Vente de matériel informatique</li>
+                <li>Vente d'électronique</li>
+                <li>Services bureautiques</li>
+            </ul>
+        </section>
+
+        <!-- Section Commande de produits -->
+        <section id="commande-produits">
+            <h2>Commande de Produits</h2>
+            <form action="#" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="produit">Produit :</label>
+                <select id="produit" name="produit">
+                    <option value="meubles-bureautiques">Meubles Bureautiques</option>
+                    <option value="telephone">Téléphone</option>
+                    <option value="cameras-surveillance">Caméras de Surveillance</option>
+                    ' <option value="jeux">Jeux</option>
+                    <option value="electromenagers">Électroménagers</option>
+                    <option value="ordinateur-portable">Ordinateur Portable</option>
+                    <option value="ordinateurs-bureautiques">Ordinateurs Bureautiques</option>
+                    <option value="imprimantes">Imprimantes</option>
+                    <option value="cameras">Caméras</option>
+                </select>
+                <input type="submit" value="Commander">
+            </form>
+        </section>
+
+        <!-- Section Commentaires -->
+        <section id="commentaires">
+            <h2>Commentaires</h2>
+            <form action="#" method="post">
+                <label for="commentaire">Laissez votre commentaire :</label>
+                <textarea id="commentaire" name="commentaire" required></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
+            <div id="affichage-commentaires">
+                <!-- Les commentaires seront affichés ici -->
+            </div>
+        </section>
+
+        <!-- Section Ventes de matériel informatique -->
+        <section id="ventes">
+            <h2>Ventes de Matériel Informatique et Électronique</h2>
+            <p>Caméras, meubles de bureau, télévisions, appareils électroniques, téléphones, imprimantes, jeux - votre partenaire de confiance.</p>
+            <div class="produits">
+                <img class="small-image" src="LEJ7HJ5BEA.jpg" alt="Ordinateur">
+                <img class="small-image" src="11517498508431613576-rotary_camera.jpg" alt="Caméra">
+                <img class="small-image" src="synchro1_Web.jpg" alt="Meuble de bureau">
+                <img class="small-image" src="5800365698461771571-tv.jpg" alt="Télévision">
+                <img class="small-image" src="200935_98128922.jpg" alt="Appareil électronique">
+                <img class="small-image" src="technology-music-phone-screen-large.jpg" alt="Téléphones ">
+                <img class="small-image" src="office-space-4.jpg" alt="Meuble de bureau">
+                <img class="small-image" src="8745934779224006391-printer.jpg" alt="Imprimante">
+                <img class="small-image" src="9342466897245393396-network_cables.jpg" alt="Internet">
+                <img class="small-image" src="pexels-photo-1647369.webp" alt="Jeux">
+            </div>
+        </section>
+
+        <!-- Section Jeux/animations -->
+        <section id="jeux-animations">
+            <h2>Jeux/Animations</h2>
+            <p>Découvrez nos jeux et animations divertissants :</p>
+            <div class="jeux-liste">
+                <div class="jeu">
+                    <h3>Nom du jeu 1</h3>
+                    <p>Description du jeu 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales tortor vitae sapien blandit, id tempor turpis condimentum. Nam euismod enim eget magna vehicula malesuada.</p>
+                    <img src="Le-pouvoir-des-jeux-de-societe-et-les-capacites-attentionnelles-des-enfants-FB.jpg" alt="Image du jeu 1">
+                </div>
+                <div class="jeu">
+                    <h3>Nom du jeu 2</h3>
+                    <p>Description du jeu 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales tortor vitae sapien blandit, id tempor turpis condimentum. Nam euismod enim eget magna vehicula malesuada.</p>
+                    ' <img src="30144889.webp" alt="#.webp">
+                </div>
+                <!-- Ajoutez d'autres jeux de la même manière -->
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>NIARE INOVA SARL - MALI<br> Rue : 478 Porte : 489<br> Kalaban Coro ADEKEN - KATI<br> Tél : +223 65 58 95 75<br> +223 98 03 94 54<br> E-mail : niareinova@niareinova.com<br> N°. Fiscal : 025038837 V NIARE-INOVA. Société Anonyme à Responsabilité
+                Limitée
+                <br> RCCM : MA.KTI.2021. B.2110 GU- C.E-(NINA) – 42102529250074H<br> Code Swift : ECOCMLBA – Clé RIB : 13 - Numéro Compte : 151806797001 – IBAN : ML13ML0900115180679700183<br> ECOBANK- Mali</p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Pied de page avec informations de contact et liens sociaux -->
+        <p>Contactez-nous : info@ventematériel.ca</p>
+        <p>Suivez-nous sur les réseaux sociaux :</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
